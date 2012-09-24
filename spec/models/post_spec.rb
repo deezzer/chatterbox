@@ -8,11 +8,10 @@ describe Post do
         FactoryGirl.build(:post, :content => nil).should_not be_valid
       end
     end
-
   end
 
   describe "posts order" do
-    it "should list posts in reverse chronological order  "  do
+    it "should list posts in reverse chronological order"  do
       @post1 = FactoryGirl.create(:post)
       @post2 = FactoryGirl.create(:post)
       @post3 = FactoryGirl.create(:post)
@@ -25,7 +24,6 @@ describe Post do
     it "connects name to user" do
       @post = FactoryGirl.create(:post, :name => "Joe")
       @post.user.name.should == "Joe"
-
     end
   end
 
