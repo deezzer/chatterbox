@@ -45,6 +45,7 @@ group :development, :test do
   gem 'rspec-rails', "~> 2.9.0"
   gem "spork"
   gem 'factory_girl_rails'
+  gem 'faker', "~>1.0.1"
 
 end
 

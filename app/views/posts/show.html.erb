@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Content:</b>
+  <%= @post.content %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @post.user.name %>
+</p>
+
+
+<%= link_to 'Index', posts_path %>

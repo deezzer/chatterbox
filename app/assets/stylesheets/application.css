@@ -11,3 +11,75 @@
  *= require_self
  *= require_tree .
 */
+
+*{
+    font-family: Times New Roman;
+
+}
+body {
+    padding: 10px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #0a669b;
+}
+
+input[type='submit'] {
+    font-size: 0.8em;
+}
+input#post_name {
+    width: 25%;
+}
+
+textarea#post_content {
+    width: 40%;
+}
+.content {
+    position: relative;
+    padding: 10px;
+    font-size: 1.5em;
+    margin: 0 18px;
+}
+
+h1 {
+    padding: 0px 10px;
+    margin: 0;
+}
+.header {
+    background-color: #000000;
+    color: yellow;
+    float: left;
+    padding: 2px 5px 1px 5px;
+    width: 100%;
+    margin: 0;
+}
+
+.header h1 .red {
+    color: #ff0000;
+}
+
+.entry{
+    border-top: 1px solid #CCC;
+    padding: 6px 0 207px;
+}
+
+.posted_info {
+    font-size: 0.8em;
+    color: #696969;
+    margin-top: 20px;
+}
+
+.field {
+    margin: 30px 0;
+
+}
+.field label {
+  font-size: 1.5em;
+}
+
+.spacer_vertical {
+    margin: 35px 0 52px;
+    margin-top: 45px;
+}
