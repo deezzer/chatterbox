@@ -17,7 +17,6 @@
 
 }
 body {
-    padding: 10px;
     margin: 0;
 }
 
@@ -37,10 +36,10 @@ textarea#post_content {
     width: 40%;
 }
 .content {
-    position: relative;
-    padding: 10px;
     font-size: 1.5em;
-    margin: 0 18px;
+    margin: 0 1em;
+    padding: 1em;
+    position: relative;
 }
 
 h1 {
@@ -51,7 +50,7 @@ h1 {
     background-color: #000000;
     color: yellow;
     float: left;
-    padding: 2px 5px 1px 5px;
+    padding: 2px 0;
     width: 100%;
     margin: 0;
 }
@@ -80,6 +79,5 @@ h1 {
 }
 
 .spacer_vertical {
-    margin: 35px 0 52px;
-    margin-top: 45px;
+    margin: 45px 0 35px 0px;
 }

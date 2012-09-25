@@ -4,14 +4,13 @@
 
 <% @posts.each do |post| %>
     <div class="entry">
-      <%= post.content %>
+      <%= post.body %>
 
       <div class="posted_info">
         Posted <%= time_ago_in_words(post.created_at) %> ago by <%= post.user.name %>.
       </div>
 
     </div>
-
 <% end %>
 
 

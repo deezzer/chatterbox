@@ -3,7 +3,7 @@
 FactoryGirl.define do
 
   factory :user do |o|
-     o.name { Faker::Name.name.gsub(/\./, '-') }
+     o.name { Faker::Name.name }
   end
 
 end
