@@ -1,4 +1,4 @@
-== Chatterbox Test by RMS
+== Simple Chatter box with RSpec
 
 Chatterbox is an app that lets users post content. All posts are then displayed in reverse / latest chronological order.
 
